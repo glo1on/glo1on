@@ -2,7 +2,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-// Silas
 
 public class Game {
 
@@ -64,7 +63,7 @@ public class Game {
     }
 
     // Move the player a room corresponding to the command input.
-    // Silas + James
+
     void movePlayerTo(Player j,Room room) {
         j.setRoom(room);
     }
@@ -117,7 +116,6 @@ public class Game {
     }
 
 
-    // Silas
     private void look() {
         Room R = mainPlayer.getRoom();
         System.out.println(R.getDescription());
@@ -135,7 +133,7 @@ public class Game {
     }
 
 
-    // James
+
     // Processes the command the user inputs then moves them to the corresponding room
     // trigger a puzzle if it is the player's first time in the new.
     public void procCommand(String command) {
@@ -175,7 +173,7 @@ public class Game {
         }
     }
 
-    // James
+
     public void take() {
         boolean tookItem = false;
         Room r = mainPlayer.getRoom();
@@ -194,7 +192,7 @@ public class Game {
         }
     }
 
-    // James
+
     public void displayInfo(Player player) {
 
         ArrayList<Thing> inventory = player.getInventory();
@@ -208,9 +206,8 @@ public class Game {
         } 
         System.out.println("----------------");
 
-    }
 
-    // James
+
     // Check which room the player is in and if they have completed the puzzle for that room, if not then it will play.
 
     public void roomScript(Player player) {
@@ -303,7 +300,7 @@ public class Game {
 
     }
 
-    // James
+
     private void loseEnergy(Player player) {
 
         int currentEnergy = player.getEnergy();
