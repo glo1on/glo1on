@@ -1,6 +1,6 @@
 import javax.naming.Name;
 
-// Taqi
+
 // when making any in game thing, extend it off this class to use the name and description.
 
 public class Thing {
