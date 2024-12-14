@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-// Silas
+
 public class Room extends Thing{
 
     private ArrayList<Thing> items = new ArrayList<>();;
