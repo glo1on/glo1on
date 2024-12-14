@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-// James
+
 
 public class TextAdventure {
 
@@ -9,7 +9,7 @@ public class TextAdventure {
         Game game = new Game();
         boolean gameRunning = true;
 
-        // Intro added by Glory
+
 System.out.println("Welcome to Pooltopia where the best of the best billiard players reside. Humans and robots\nalike come together to play everyday. Unfortunately, there was an arrest made in Pooltopia\nof your best friend Rob who is a robot because he was just too good! You must now navigate\nthrough the prison that he is being held in to rescue him! Use north(n), south (s), east(e), and\nwest (w) to move throughout the prison. Proceed north (n) to the front entrance.");
         Scanner inputName = new Scanner(System.in);
         System.out.print("Enter your player name: ");
