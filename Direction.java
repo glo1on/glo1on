@@ -1,6 +1,6 @@
 // enum to use for character direction
 
-// Silas
+
 
 public enum Direction {
     NORTH,
