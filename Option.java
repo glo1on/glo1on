@@ -1,4 +1,3 @@
-// Glory
 
 public class Option {
 
