@@ -6,7 +6,6 @@ public class Puzzle {
     Game game = new Game();
     Scanner scanner = new Scanner(System.in);
 
-    // Allen
     public boolean Maze(){
 
         Scanner input = new Scanner(System.in);
