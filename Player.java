@@ -1,7 +1,6 @@
 import java.util.ArrayList;
 
-//Silas
-// Inventory done by James
+
 
 public class Player extends Thing {
 
